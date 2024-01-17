@@ -1,0 +1,128 @@
+/* TELA DE LOGIN */
+
+.conteudo__tela__login {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(45deg, #0000ff, #ffd700);
+}
+
+.tela__login {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.tela__login__input {
+    padding: 15px;
+    border-radius: 5px;
+    outline: none;
+    font-size: 15px;
+}
+
+.tela__login__botao {
+    background-color: #3381F3;
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #3381F3;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.tela__login__botao:hover {
+    background-color: #fff;
+    color: #3381F3;
+}
+
+/* TELA DE CADASTRO */
+
+.conteudo__formulario {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, #1493dc, #0000ff);
+}
+
+.formulario {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 25%;
+}
+
+fieldset {
+    border: 3px solid #1e90ff;
+}
+
+.formulario__titulo {
+    border: 1px solid #1e90ff;
+    padding: 10px;
+    text-align: center;
+    background-color: #1e90ff;
+    border-radius: 8px;
+}
+
+.formulario__input {
+    position: relative;
+}
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+.labelInput {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput{
+    top: -20px;
+    font-size: 12px;
+    color: #1e90ff;
+    animation: infinite alternative;
+}
+
+#data_nascimento {
+    border: none;
+    padding: none;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.formulario__botao {
+    background-color: #3381F3;
+    border: 1px solid #3381F3;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.formulario__botao:hover {
+    background-color: #fff;
+    color: #3381F3;
+}
